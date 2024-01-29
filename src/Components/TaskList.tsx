@@ -50,7 +50,7 @@ const TaskList: React.FC<TaskListProps> = ({ tasks, selectedTasks, onDelete, onT
 
       {/* Drag and Drop context for reordering tasks */}
       <DragDropContext onDragEnd={onDragEnd}>
-      <Droppable droppableId="task-list-droppable">
+      <Droppable droppableId="new-drop">
     {(provided) => (
             <ul {...provided.droppableProps} ref={provided.innerRef}>
 
