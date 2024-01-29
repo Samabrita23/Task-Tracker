@@ -1,0 +1,77 @@
+
+
+  .task-list {
+    max-width: 600px;
+    margin: 1rem 0 0 22rem;
+    padding: 2rem;
+    background: linear-gradient(207deg, #DFE8FF 12.64%, rgba(223, 232, 255, 0.00) 83.18%);
+  }
+  .task-list h2{
+    color: #000;
+    font-family: "Source Serif Pro";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .task-list-actions {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 10px;
+  }
+  .task-list-actions button{
+    border:none;
+    padding:0.6rem;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: #000;   
+    font-family: "Source Serif Pro";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+
+
+  }
+  .task-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #6078B8;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    cursor: grab;
+    color: #FFF;
+    font-family: "Source Serif Pro";
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    user-select: none;
+  cursor: grab;
+  }
+
+  .task-list li:active {
+    cursor: grabbing;
+  }
+  
+  .task-list li input {
+    margin-right: 10px;
+  }
+  
+  .task-list li button {
+    margin-left: auto;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
